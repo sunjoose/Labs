@@ -1,0 +1,60 @@
+<!--
+Instructions:
+
+See PHP file.
+
+-->
+
+
+
+
+
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Lab 04</title>
+
+<header><h1><marquee scrollamount="20">Lab 04 - 1998 Edition</marquee></h1></header>
+
+
+<body>
+<form action="lab04output.php" method="post"> <!-- form action=destination -->
+
+
+<pre>
+
+
+	  Your name: <input type="text" name="yourName" size="20" maxlength="30" />
+	<span style="vertical-align:top">Suggestions: </span><textarea name="suggestions" cols="30" rows="5">
+	</textarea>
+
+	<fieldset><legend>Ice Cream</legend>
+		<label><input type="radio" name="icecream" value="vanillaIcecream" CHECKED/>Vanilla</label>
+		<label><input type="radio" name="icecream" value="chocolateIcecream" />Chocolate</label>
+		<label><input type="radio" name="icecream" value="peanutIcecream" />Peanut Butter</label>
+	</fieldset>
+
+	<fieldset><legend>Topping</legend>
+		<input type="checkbox" name="toppings[]" value="Cherries" CHECKED/> Cherries
+		<input type="checkbox" name="toppings[]" value="Chocolate Sprinkles" /> Chocolate Sprinkles
+		<input type="checkbox" name="toppings[]" value="Pineapple" /> Pineapple
+		<input type="checkbox" name="toppings[]" value="Walnuts" /> Walnuts
+	</fieldset>
+
+	<fieldset><legend>Scoops</legend>
+		<select name="scoops" size="1">
+		    <option name ="oneScoop" value="oneScoop">One scoop</option>
+		    <option name="twoScoop" value="twoScoop">Two scoops</option>
+		    <option name="threeScoop" value="threeScoop">Three scoops</option>
+				<option name="fourScoop" value="fourScoop">Four!</option>
+		</select>
+	</fieldset>
+
+	<input type="submit" name="submit" value="Order!" />
+
+
+</pre>
+</form>
+	</body>
+
+<footer></footer>
+</html>

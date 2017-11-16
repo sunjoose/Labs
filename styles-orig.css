@@ -1,0 +1,294 @@
+/***********************************************
+Main
+***********************************************/
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #94f200;
+}
+
+header {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #8673d1;
+	color: red;
+}
+
+footer{
+	background-color: #8673d1;
+  padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+	width: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+}
+
+#banner {
+	display: block;
+	margin: 0px auto;
+}
+
+#indexMain {
+	text-align: center;
+}
+
+#mainNav {
+	font-family: Tahoma, sans-serif;
+	background-color: black;
+	border-radius: 0px;
+	padding: 5px 16px;
+	text-align: center;
+}
+
+#mainNav a {
+	color: white;
+	font-size: 1.5em;
+	padding: 5px 30px;
+	text-decoration: none;
+}
+
+#mainNav a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+
+/***********************************************
+Headers
+***********************************************/
+
+h1{
+	text-align: center;
+	text-shadow: 3px 2px 7px rgba(255, 255, 255, 0.62);
+	font-size: 200px !important;
+	font-weight: bolder;
+	font-family: fantasy;
+	margin-top: 10;
+	margin-bottom: 10;
+	/*color: #004d99;*/
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+h6{
+  text-align: center;
+}
+
+
+
+/***********************************************
+Forms & Input
+***********************************************/
+form {
+  margin-left: 10;
+  margin-right: 10;
+}
+
+input[type=submit] {
+  width: 30%;
+  height: 40px;
+  background-color: #707070;
+  border-radius: 4px;
+  color: white;
+}
+
+button {
+  background-color: red;
+  height: 20px;
+  width: 10%;
+}
+
+
+fieldset{
+	background: blue;
+	color: red;
+}
+
+
+
+/***********************************************
+Table Class: paleBlueRows
+***********************************************/
+
+table.paleBlueRows {
+  border: 1px solid #FFFFFF;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+
+/*Bold Second Column*/
+table.paleBlueRows tr > td:first-child + td  {
+  font-weight: bold;
+}
+
+
+
+/***********************************************
+Extras
+***********************************************/
+
+select{
+  background-color: #CC05CE;
+  color: white;
+}
+
+legend{
+  background-color: white;
+  font-weight: bolder;
+}
+
+p {
+    padding: 10px;
+}
+
+
+
+
+/***********************************************
+Grant's Code
+***********************************************/
+/*
+
+#banner {
+	display: block;
+	margin: 0px auto;
+}
+
+body {
+	background-color: #d8d8d8;
+}
+
+footer {
+	background-color: black;
+	border-radius: 10px;
+	color: yellow;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+	width: 100%;
+}
+
+#indexMain {
+	text-align: center;
+}
+
+#mainNav {
+	font-family: Tahoma, sans-serif;
+	background-color: black;
+	border-radius: 10px;
+	padding: 5px 16px;
+	text-align: center;
+}
+
+#mainNav a {
+	color: white;
+	font-size: 1.5em;
+	padding: 5px 30px;
+	text-decoration: none;
+}
+
+#mainNav a:hover {
+	background-color: white;
+	color: black;
+}
+
+#map {
+	display: block;
+	margin: 20px auto;
+}
+
+#mapMain {
+	text-align: center;
+}
+
+#products {
+	margin: 0px auto;
+}
+
+#productsMain {
+	text-align: center;
+}
+
+#products td {
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+#products td img {
+	max-height: 150px;
+}
+
+#sales {
+	margin: 0px auto;
+}
+
+#sales td {
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#sales td img {
+	max-height: 150px;
+}
+
+#salesMain {
+	text-align: center;
+}
+*/
